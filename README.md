@@ -6,7 +6,7 @@ Ao clonar o repositório:
 
 **1. Duplicar o arquivo .env.example com o nome .env**
 
-**2. No arquivo .env adicionar um nova linha ao final do arquivo com a Key:**
+**2. No arquivo .env adicionar um nova linha ao final do arquivo com a Key da OpenAI:**
 + OPENAI_API_KEY=minha_chave
 
 **3. Utilizando o terminal executar o seguinte comando para instalar as dependências:**
@@ -21,3 +21,7 @@ php artisan serve
 ```
 http://localhost:8000
 ```
+
+**Link para obter uma Key da OpenAI:**
+
+https://platform.openai.com/docs/api-reference/introduction
